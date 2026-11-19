@@ -13,21 +13,7 @@ description: >
 
 # agent-trunk-flow
 
-Trunk-based development, adapted for teams of AI agents.
-
-## Why it fits agent teams
-
-Big orgs that deploy constantly run on a single trunk: Google lands on the
-order of 80k commits a week on one branch, Meta reviews stacked diffs
-instead of giant PRs, Shopify merges many times a day. Long-lived branches
-exist to catch bad integrations between human developers. An agent team on
-one tree rarely has that problem, so the branches add friction without
-adding safety.
-
-Agents make trunk-based flow more natural: no egos, no "my branch", and
-superhuman speed rewards small, frequent integration. But agents need
-explicit machinery where humans use judgment: when to branch, when to push,
-and how to stay inside CI's speed envelope.
+Trunk-based development, adapted for teams of AI agents: one main branch, atomic commits at every checkpoint, CI as the reviewer, branches that live hours not days.
 
 ## Principles
 
